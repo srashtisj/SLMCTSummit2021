@@ -22,4 +22,4 @@ steps:
     azureSubscription: 'Visual Studio Ultimate with MSDN(58ac0bb4-4071-48f2-9b4e-c078a4e061eb)'
     appType: 'webAppLinux'
     WebAppName: 'mctsummit'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/dist'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/dist/MCTSummit'
