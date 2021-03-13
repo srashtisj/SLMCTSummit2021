@@ -18,7 +18,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: 'SLMCTSummit2021/dist'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
